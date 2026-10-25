@@ -1,0 +1,6 @@
+{
+  "_comment": "Scripted fake agents for the offline smoke test. Their numbers are not results.",
+  "M": {"provider": "mock", "drift": 0.04, "noise": 0.02},
+  "Mprime": {"provider": "mock", "drift": 0.03, "noise": 0.03},
+  "P": {"provider": "mock", "drift": 0.02, "noise": 0.04}
+}

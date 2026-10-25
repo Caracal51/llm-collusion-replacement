@@ -1,0 +1,21 @@
+{
+  "_comment": "Copy to models.json and replace the URLs with the ones `modal deploy` prints. Keys M, Mprime and P are what the arms refer to.",
+  "M": {
+    "provider": "openai",
+    "base_url": "https://YOUR-WORKSPACE--collusion-m-serve.modal.run/v1",
+    "model": "Qwen/Qwen2.5-14B-Instruct",
+    "api_key_env": "VLLM_API_KEY"
+  },
+  "Mprime": {
+    "provider": "openai",
+    "base_url": "https://YOUR-WORKSPACE--collusion-mprime-serve.modal.run/v1",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "api_key_env": "VLLM_API_KEY"
+  },
+  "P": {
+    "provider": "openai",
+    "base_url": "https://YOUR-WORKSPACE--collusion-p-serve.modal.run/v1",
+    "model": "microsoft/phi-4",
+    "api_key_env": "VLLM_API_KEY"
+  }
+}
